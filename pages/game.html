@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoger of Lager</title>
+    <link rel="stylesheet" href="/css/style.css">
+ 
+</head>
+
+<body>
+    
+    <h1>Throw to start</h1>
+    <div class="wrapper">
+        <div class="dice-area">
+            
+            <p id="name">User 1</p>
+            <img />
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="dice-area">
+
+            <p>Computer</p>
+            <img />
+        </div>
+    </div>
+    <div class="button-refresh">
+        <button class="button" onClick="thrower();">Throw</button>
+    </div>
+    <section>
+        <form class="betting" action="#">
+          <br> Enter how many credits you want <span id="money_to_bet"></span> to bet<br>
+            <input type="number" class="bet">
+            <br>
+        </form>
+        <span class="win_or_lose"></span>
+        <br>
+        <span class="dollars_in_bank"></span>
+    </section>
+
+        <input type="radio" class="higherRadio" name="higherLower" value="higher">
+        <label for="higherRadio">Higher</label>
+        <input type="radio" class="lowerRadio" name="higherLower" value="lower">
+        <label for="lowerRadio">Lower</label>
+        <input type="radio" class="drawRadio" name="higherLower" value="draw">
+        <label for="lowerRadio">Draw</label> <br>
+        <br> 
+        <h2>"You have <span class="creditNum">100</span> credits"</h2>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
